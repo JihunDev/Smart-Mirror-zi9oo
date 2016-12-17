@@ -1,0 +1,129 @@
+{
+    "home" : {
+        "commands" : "Say \"메뉴\" to see a list of commands..."
+    },
+    "traffic" : {
+        "time_to" : "{{name}} 에 시간: "
+    },
+    "reminders": {
+        "empty": "더 리콜 없습니다."
+    },
+    "timer": {
+      "one": "일",
+      "minute": "분",
+      "second": "초"
+    },
+    "commands": {
+        "title" : "사용 가능한 명령",
+        "list": {
+            "text": "메뉴",
+            "voice": "메뉴",
+            "description": "메뉴\" 라고 말해 보세요\""
+        },
+        "home": {
+            "text": "집",
+            "voice": "(집)(메인 화면)",
+            "description": "메인 화면으로 돌아갑니다."
+        },
+        "sleep": {
+            "text": "스투페파이",
+            "voice": "스투페파이",
+            "description": "잠자러가는 주문! 스투패파이"
+        },
+        "wake_up": {
+            "text": "알로호모라",
+            "voice": "알로호모라",
+            "description": "일어나는 주문! 알로호모라"
+        },
+        "debug": {
+            "text": "디버그 정보 보여 줘",
+            "voice": "디버그 정보 보여 줘",
+            "description": "디버그 정보 보여 줘."
+        },
+        "map_show": {
+            "text": "지도 보여 줘",
+            "voice": "지도 보여 줘",
+            "description": "현재 도시의 지도를 보여 줍니다."
+        },
+        "map_location": {
+            "text": "___ 지도 보여 줘",
+            "voice": "*location지도 보여 줘",
+            "description": "주어진 위치의 지도를 보여 줍니다."
+        },
+        "map_zoom_in": {
+            "text": "지도 확대",
+            "voice": "(지도) 확대",
+            "description": "현재 지도를 확대 합니다."
+        },
+        "map_zoom_out": {
+            "text": "지도 축소",
+            "voice": "(지도) 축소",
+            "description": "현재 지도를 축소 합니다."
+        },
+        "map_zoom_point": {
+            "text": " ________값으로 지도 설정",
+            "voice": "*value값으로지도 설정",
+            "description": "원하는 값으로 지도를 설정합니다."
+        },
+        "map_zoom_reset": {
+            "text": "지도 리셋",
+            "voice": "(지도) 리셋",
+            "description": "지도를 이전 값으로 되돌립니다."
+        },
+        "video_search": {
+            "text": "________ 보여 줘",
+            "voice": "*term 보여 줘",
+            "description": "요청한 것의 비디오을 보여 줍니다."
+        },
+        "video_stop": {
+            "text": "동영상 중지",
+            "voice": "동영상 중지",
+            "description": "비디오를 중지합니다.."
+        },
+        "reminder_insert": {
+            "text": " ________상기 시켜 줘 ",
+            "voice": "*task 상기 시켜 줘",
+            "description": "미리 알림 리스트에 추가 합니다."
+        },
+        "reminder_clear": {
+            "text": "미리 알림 삭제 해 줘",
+            "voice": "미리 알림 삭제 해 줘",
+            "description": "미리 알림리스트를 삭제 합니다."
+        },
+        "reminder_show": {
+            "text": "나에게 리콜 목록을 표시",
+            "voice": "나에게 리콜 목록을 표시",
+            "description": "리콜 목록을 표시합니다."
+        },
+        "time_show": {
+            "text": "지금 몇 시",
+            "voice": "지금 몇 시",
+            "description": "지금 몇 시."
+        },
+        "timer_start": {
+            "text": "______ 타이머 (설정)",
+            "voice": "*duration 타이머 (설정)",
+            "description": "*duration 타이머 (설정)."
+        },
+        "timer_show": {
+            "text": "타이머 보여줄래",
+            "voice": "타이머 보여줄래",
+            "description": "타이머 보여줄래."
+        },
+        "timer_stop": {
+            "text": "타이머 정지",
+            "voice": "타이머 정지",
+            "description": "타이머 정지."
+        },
+        "timer_resume": {
+            "text": "타이머 재시작",
+            "voice": "타이머 재시작",
+            "description": "타이머 재시작."
+        },
+        "subway" : {
+            "text": "______역 ______(호)선 상/하행선",
+            "voice": "*station역 *linenumber(호)선 *updown선",
+            "description": "지하철 도착 역을 표시합니다."
+        }
+    }
+}
